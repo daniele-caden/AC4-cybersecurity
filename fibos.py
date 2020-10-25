@@ -12,7 +12,7 @@ def fibonacci ():
     resultado = "0"
     while ( contagem < limite):
         z = x + y
-        resultado += "," +z
+        resultado += "," +str(z)
         y = z 
         x = y
         contagem += 1
